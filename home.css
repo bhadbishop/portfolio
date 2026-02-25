@@ -1,0 +1,927 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: black; */
+    /* color: white; */
+}
+
+
+
+@media only screen and (min-width:1501px)  {
+
+
+#page{
+    width: 100%;
+    height: 500rem;
+    background-color: black;
+}
+#head{
+    width: 90%;
+    height: 2rem;
+    background-color: rgb(31, 31, 31);
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5% 0 5%;
+    border-radius: 0 0 10px 10px;}
+
+.logo{
+    width: 20%;
+    margin-top: 2px;
+}
+
+.logot{
+    font-size: 22px;  
+    font-family: 'montserrat' , sans-serif;
+    margin-left: 2rem;
+    color: rgb(255, 0, 0);
+}
+
+.option{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2px;
+}
+
+.optt{
+    width: 10%;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    margin-right: 2rem;
+    padding-top: 5px;
+    
+}
+
+.optt:hover{
+    font-size: 15px;
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+
+
+}
+
+#homep{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10%;
+}
+.homet{
+    width: 50%;
+    height: 20rem;
+    /* background-color: palevioletred; */
+}
+
+.how{
+    color: white;
+    font-size: 20px;
+    font-family: 'montserrat' , sans-serif;
+}
+.howw{
+    color: red;
+    font-family: 'montserrat' , sans-serif;
+    font-size: 40px;
+    
+}
+.howww{
+    width: 50%;
+    color: white;
+    font-size: 15px;
+}
+
+.num{
+    width: 80%;
+    height: 7rem;
+    margin-top: 3rem;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.numm{
+    width: 25%;
+    padding-top: 5px;
+    height: 5rem;
+    background-color: rgb(22, 22, 22);
+    box-shadow: 2px rgb(80, 80, 80);
+    border-radius: 15px;
+}
+
+.no{
+    font-size: 40px;
+    color: red;
+    text-align: center;
+    font-family: 'montserrat' , sans-serif;
+}
+
+
+.nu{
+    font-size: 12px;
+    text-align: center;
+    color: white;
+}
+
+
+#cv{
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: blue; */
+}
+
+.cv1{
+    width: 45%;
+    height: 2rem;
+    background-color: red;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 5px;
+    font-size: 18px;
+}
+
+.cv2{
+    width: 45%;
+    height: 2rem;
+    /* background-color: red; */
+    text-align: center;
+    border: 2px solid white;
+    color: white;
+    border-radius: 20px;
+    padding-top: 5px;
+    font-size: 18px;
+}
+
+.cv2:hover{
+    width: 45%;
+    height: 2rem;
+    background-color: white;
+    text-align: center;
+    border: 2px solid white;
+    color: black;
+    border-radius: 20px;
+    padding-top: 5px;
+    font-size: 18px;
+}
+
+
+
+
+.homei{
+    width: 30%;
+    height: 25rem;
+    background: url(image/founder1.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    margin-right: 5%;
+    border-radius: 5%;
+    border: 2px solid red;
+
+}
+
+.imgg{
+    width: 100%;
+}
+
+
+}
+
+
+@media only screen and (min-width:1201px) and (max-width: 1500px) {
+
+
+#page{
+    width: 100%;
+    height: 500rem;
+    background-color: black;
+}
+#head{
+    width: 90%;
+    height: 2rem;
+    background-color: rgb(31, 31, 31);
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5% 0 5%;
+    border-radius: 0 0 10px 10px;}
+
+.logo{
+    width: 20%;
+    margin-top: 2px;
+}
+
+.logot{
+    font-size: 22px;  
+    font-family: 'montserrat' , sans-serif;
+    margin-left: 2rem;
+    color: rgb(255, 0, 0);
+}
+
+.option{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2px;
+}
+
+.optt{
+    width: 10%;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    margin-right: 2rem;
+    padding-top: 5px;
+    
+}
+
+.optt:hover{
+    font-size: 15px;
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+
+
+}
+
+#homep{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10%;
+}
+.homet{
+    width: 50%;
+    height: 20rem;
+    /* background-color: palevioletred; */
+}
+
+.how{
+    color: white;
+    font-size: 20px;
+    font-family: 'montserrat' , sans-serif;
+}
+.howw{
+    color: red;
+    font-family: 'montserrat' , sans-serif;
+    font-size: 40px;
+    
+}
+.howww{
+    width: 50%;
+    color: white;
+    font-size: 15px;
+}
+
+.num{
+    width: 80%;
+    height: 7rem;
+    margin-top: 3rem;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.numm{
+    width: 25%;
+    padding-top: 5px;
+    height: 5rem;
+    background-color: rgb(22, 22, 22);
+    box-shadow: 2px rgb(80, 80, 80);
+    border-radius: 15px;
+}
+
+.no{
+    font-size: 40px;
+    color: red;
+    text-align: center;
+    font-family: 'montserrat' , sans-serif;
+}
+
+
+.nu{
+    font-size: 12px;
+    text-align: center;
+    color: white;
+}
+
+
+#cv{
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: blue; */
+}
+
+.cv1{
+    width: 45%;
+    height: 2rem;
+    background-color: red;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 5px;
+    font-size: 18px;
+}
+
+.cv2{
+    width: 45%;
+    height: 2rem;
+    /* background-color: red; */
+    text-align: center;
+    border: 2px solid white;
+    color: white;
+    border-radius: 20px;
+    padding-top: 5px;
+    font-size: 18px;
+}
+
+.cv2:hover{
+    width: 45%;
+    height: 2rem;
+    background-color: white;
+    text-align: center;
+    border: 2px solid white;
+    color: black;
+    border-radius: 20px;
+    padding-top: 5px;
+    font-size: 18px;
+}
+
+
+
+
+.homei{
+    width: 30%;
+    height: 25rem;
+    background: url(image/founder1.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    margin-right: 5%;
+    border-radius: 5%;
+    border: 2px solid red;
+
+}
+
+.imgg{
+    width: 100%;
+}
+
+
+}
+
+@media only screen and (min-width:900px) and (max-width: 1200px) {
+
+
+#page{
+    width: 100%;
+    height: 500rem;
+    background-color: black;
+}
+#head{
+    width: 90%;
+    height: 2rem;
+    background-color: rgb(31, 31, 31);
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5% 0 5%;
+    border-radius: 0 0 10px 10px;}
+
+.logo{
+    width: 20%;
+    margin-top: 2px;
+}
+
+.logot{
+    font-size: 20px;  
+    font-family: 'montserrat' , sans-serif;
+    margin-left: 2rem;
+    color: rgb(255, 0, 0);
+}
+
+.option{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2px;
+}
+
+.optt{
+    width: 10%;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    margin-right: 2rem;
+    padding-top: 5px;
+    
+}
+
+.optt:hover{
+    font-size: 14px;
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+
+
+}
+
+#homep{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10%;
+}
+.homet{
+    width: 50%;
+    height: 20rem;
+    /* background-color: palevioletred; */
+}
+
+.how{
+    color: white;
+    font-size: 20px;
+    font-family: 'montserrat' , sans-serif;
+}
+.howw{
+    color: red;
+    font-family: 'montserrat' , sans-serif;
+    font-size: 35px;
+    
+}
+.howww{
+    width: 60%;
+    color: white;
+    font-size: 15px;
+}
+
+.num{
+    width: 80%;
+    height: 7rem;
+    margin-top: 3rem;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.numm{
+    width: 25%;
+    padding-top: 5px;
+    height: 5rem;
+    background-color: rgb(22, 22, 22);
+    box-shadow: 2px rgb(80, 80, 80);
+    border-radius: 15px;
+}
+
+.no{
+    font-size: 40px;
+    color: red;
+    text-align: center;
+    font-family: 'montserrat' , sans-serif;
+}
+
+
+.nu{
+    font-size: 11px;
+    text-align: center;
+    color: white;
+}
+
+
+#cv{
+    width: 60%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: blue; */
+}
+
+.cv1{
+    width: 45%;
+    height: 2rem;
+    background-color: red;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 5px;
+    font-size: 17px;
+}
+
+.cv2{
+    width: 45%;
+    height: 2rem;
+    /* background-color: red; */
+    text-align: center;
+    border: 2px solid white;
+    color: white;
+    border-radius: 20px;
+    padding-top: 5px;
+    font-size: 17px;
+}
+
+.cv2:hover{
+    width: 45%;
+    height: 2rem;
+    background-color: white;
+    text-align: center;
+    border: 2px solid white;
+    color: black;
+    border-radius: 20px;
+    padding-top: 5px;
+    font-size: 17px;
+}
+
+
+
+
+.homei{
+    width: 30%;
+    height: 25rem;
+    background: url(image/founder1.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    margin-right: 5%;
+    border-radius: 5%;
+    border: 2px solid red;
+
+}
+
+.imgg{
+    width: 100%;
+}
+
+
+}
+
+
+
+@media only screen and (min-width:550px) and (max-width: 899px) {
+
+
+#page{
+    width: 100%;
+    height: 500rem;
+    background-color: black;
+}
+#head{
+    width: 90%;
+    height: 2rem;
+    background-color: rgb(31, 31, 31);
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5% 0 5%;
+    border-radius: 0 0 10px 10px;}
+
+.logo{
+    width: 20%;
+    margin-top: 2px;
+}
+
+.logot{
+    font-size: 18px;  
+    font-family: 'montserrat' , sans-serif;
+    margin-left: 2rem;
+    color: rgb(255, 0, 0);
+}
+
+.option{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2px;
+}
+
+.optt{
+    width: 10%;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    margin-right: 2rem;
+    padding-top: 5px;
+    
+}
+
+.optt:hover{
+    font-size: 14px;
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+
+
+}
+
+#homep{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10%;
+}
+.homet{
+    width: 50%;
+    height: 20rem;
+    /* background-color: palevioletred; */
+}
+
+.how{
+    color: white;
+    font-size: 15px;
+    font-family: 'montserrat' , sans-serif;
+}
+.howw{
+    color: red;
+    font-family: 'montserrat' , sans-serif;
+    font-size: 22px;
+    
+}
+.howww{
+    width: 80%;
+    color: white;
+    font-size: 12px;
+}
+
+.num{
+    width: 95%;
+    height: 5rem;
+    margin-top: 3rem;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.numm{
+    width: 27%;
+    padding-top: 5px;
+    height: 3.5rem;
+    background-color: rgb(22, 22, 22);
+    box-shadow: 2px rgb(80, 80, 80);
+    border-radius: 15px;
+}
+
+.no{
+    font-size: 30px;
+    color: red;
+    text-align: center;
+    font-family: 'montserrat' , sans-serif;
+}
+
+
+.nu{
+    font-size: 9px;
+    text-align: center;
+    color: white;
+}
+
+
+#cv{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: blue; */
+}
+
+.cv1{
+    width: 45%;
+    height: 2rem;
+    background-color: red;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 4px;
+    font-size: 14px;
+}
+
+.cv2{
+    width: 45%;
+    height: 2rem;
+    /* background-color: red; */
+    text-align: center;
+    border: 2px solid white;
+    color: white;
+    border-radius: 20px;
+    padding-top: 4px;
+    font-size: 14px;
+}
+
+.cv2:hover{
+    width: 45%;
+    height: 2rem;
+    background-color: white;
+    text-align: center;
+    border: 2px solid white;
+    color: black;
+    border-radius: 20px;
+    padding-top: 4px;
+    font-size: 14px;
+}
+
+
+
+
+.homei{
+    width: 40%;
+    height: 22rem;
+    background: url(image/founder1.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    margin-right: 2%;
+    border-radius: 5%;
+    border: 2px solid red;
+
+}
+
+.imgg{
+    width: 100%;
+}
+
+
+}
+
+
+
+@media only screen and (min-width:250px) and (max-width:549px) {
+
+
+#page{
+    width: 100%;
+    height: 500rem;
+    background-color: black;
+}
+#head{
+    width: 100%;
+    height: 2rem;
+    background-color: rgb(31, 31, 31);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0 0 10px 10px;}
+
+.logo{
+    width: 20%;
+    margin-top: 2px;
+}
+
+.logot{
+    font-size: 12px;  
+    font-family: 'montserrat' , sans-serif;
+    margin-left: 1rem;
+    color: rgb(255, 0, 0);
+}
+
+.option{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2px;
+}
+
+.optt{
+    width: 10%;
+    text-align: center;
+    font-size: 9px;
+    color: white;
+    margin-right: 1rem;
+    padding-top: 5px;
+    
+}
+
+.optt:hover{
+    font-size: 14px;
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+
+
+}
+
+#homep{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10%;
+}
+.homet{
+    width: 75%;
+    height: 20rem;
+    /* background-color: palevioletred; */
+}
+
+.how{
+    color: white;
+    font-size: 15px;
+    font-family: 'montserrat' , sans-serif;
+}
+.howw{
+    color: red;
+    font-family: 'montserrat' , sans-serif;
+    font-size: 20px;
+    
+}
+.howww{
+    width: 80%;
+    color: white;
+    font-size: 12px;
+}
+
+.num{
+    width: 95%;
+    height: 5rem;
+    margin-top: 3rem;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.numm{
+    width: 27%;
+    padding-top: 5px;
+    height: 3rem;
+    background-color: rgb(22, 22, 22);
+    box-shadow: 2px rgb(80, 80, 80);
+    border-radius: 15px;
+}
+
+.no{
+    font-size: 25px;
+    color: red;
+    text-align: center;
+    font-family: 'montserrat' , sans-serif;
+}
+
+
+.nu{
+    font-size: 8px;
+    text-align: center;
+    color: white;
+}
+
+
+#cv{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: blue; */
+}
+
+.cv1{
+    width: 40%;
+    height: 1.5rem;
+    background-color: red;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 4px;
+    font-size: 14px;
+}
+
+.cv2{
+    width: 40%;
+    height: 1.5rem;
+    /* background-color: red; */
+    text-align: center;
+    border: 2px solid white;
+    color: white;
+    border-radius: 20px;
+    padding-top: 4px;
+    font-size: 14px;
+}
+
+.cv2:hover{
+    width: 40%;
+    height: 1.5rem;
+    background-color: white;
+    text-align: center;
+    border: 2px solid white;
+    color: black;
+    border-radius: 20px;
+    padding-top: 4px;
+    font-size: 14px;
+}
+
+
+
+
+.homei{
+    width: 15%;
+    height: 5rem;
+    background: url(image/founder1.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    margin-right: 2%;
+    border-radius: 5%;
+    border: 1px solid red;
+
+}
+
+/* .imgg{
+    width: 100%;
+} */
+
+
+}
